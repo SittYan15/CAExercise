@@ -225,7 +225,6 @@ public class BaseConversionSimulation {
             count++;
 
             if (count >= 4) {
-                System.out.println(temp);
                 checkValue = Integer.parseInt(BinaryToDecimal(temp));
                 temp = "";
                 count = 0;
